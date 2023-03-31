@@ -1,0 +1,70 @@
+#EllipseContent {
+  display: flex;
+  width: 27%;
+  position: relative;
+  align-items: center;
+}
+
+.ellipseImage {
+  /* position: relative; */
+  text-align: center;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  /* padding-top: 1.8rem; */
+}
+.ellipseNumber {
+  position: absolute;
+  top: 1.6rem;
+  bottom: 0;
+  left: 2rem;
+  right: 0;
+  color: #fdfdff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.375rem;
+  letter-spacing: 0.04em;
+}
+
+#p1 {
+  font-family: Montserrat;
+  font-style: bold;
+  /* padding-bottom: 3px; */
+  font-weight: 1000;
+  font-size: 18px;
+  /* line-height: 1.375rem; */
+  letter-spacing: 0.04em;
+  padding-left: 1rem;
+  width: 100%;
+  margin-bottom: 0 !important;
+  color: #3f3f3f;
+}
+
+#p2 {
+  font-family: "Poppins";
+  font-style: normal;
+  padding-bottom: 3px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.375rem;
+  letter-spacing: 0.04em;
+  padding-left: 0.938rem;
+  color: #3f3f3f;
+}
+
+#card_content {
+  padding-left: 22px;
+}
+
+@media (max-width: 1000px) {
+  #EllipseContent {
+    width: 40%;
+  }
+}
+
+@media (max-width: 620px) {
+  #EllipseContent {
+    width: 90%;
+  }
+}

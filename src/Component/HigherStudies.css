@@ -1,0 +1,68 @@
+#HigherStudies_heading.MobileView {
+  display: none;
+}
+
+#HigherStudies {
+  box-sizing: border-box;
+  margin-top: 7rem;
+  padding: 0 5.75rem;
+}
+
+#HigherStudies_content h1 {
+  font-size: 2.25rem;
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #06ca3d;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+#PartFirst {
+  line-height: 131%;
+  margin-top: 0.625rem;
+  margin-bottom: 1.875rem;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+  text-align: center;
+  width: 90%;
+  padding-left: 13%;
+  color: #3f3f3f;
+}
+
+#PartSecond {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#PS1 {
+  width: 40%;
+}
+
+@media (max-width: 500px) {
+  #HigherStudies {
+    padding: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  #PartFirst {
+    text-align: justify;
+  }
+
+  #PartSecond {
+    flex-direction: column;
+    align-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  #PartFirst {
+    padding-left: 7%;
+  }
+  #HigherStudies_content h1 {
+    font-size: 1.8rem;
+  }
+}

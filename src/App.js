@@ -3,7 +3,8 @@ import Navbar from "./Component/header";
 import { BrowserRouter } from "react-router-dom";
 import Home from "./Component/home";
 import CardExample from "./Component/corousel";
-import Testimonial from "./Component/testimonial";
+// import Testimonial from "./Component/testimonial";
+import HigherStudiesCarousel from "./Component/HigherStudiesCarousel";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <CardExample />
       </div>
       <div>
-        <Testimonial />
+        <HigherStudiesCarousel />
       </div>
     </div>
   );

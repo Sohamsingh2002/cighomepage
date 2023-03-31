@@ -1,0 +1,134 @@
+@font-face {
+  font-family: sansation-regular;
+  src: url(./sansation/Sansation-Regular.ttf);
+}
+@font-face {
+  font-family: sansation-bold;
+  src: url(./sansation/Sansation-Bold.ttf);
+}
+.HigherStudies__Carousel {
+  width: 90%;
+  margin: 6rem 0;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 5rem;
+  height: 250px;
+  align-items: center;
+}
+
+#PartFirst {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 131%;
+  /* or 18px */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.HS__CarouselSpace {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 6.663rem;
+}
+
+.HS__CarouselImg {
+  position: relative;
+  max-width: 40%;
+}
+
+.HS__CarouselImg img {
+  max-width: 17rem;
+  width: 100%;
+}
+
+.HS__CarouselBg {
+  margin-top: 25%;
+}
+
+.HS__CarouselPic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scale(0.9);
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.HS__CarouselData {
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.HS__CarouselData > h2,
+.HS__CarouselData > h4 {
+  margin: 0;
+  font-family: sansation-bold;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  letter-spacing: 0.04em;
+  color: #3f3f3f;
+}
+
+.HS__CarouselData > p,
+.HS__CarouselData > a {
+  font-family: sansation-regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 131%;
+  letter-spacing: 0.04em;
+  font-size: 17px;
+  color: #000000;
+  margin: 0;
+  text-align: justify;
+}
+
+.HS__CarouselData > a {
+  color: #5d9ad5;
+}
+
+@media (max-width: 1000px) {
+  .HigherStudies__Carousel {
+    column-gap: 2rem;
+    height: 600px;
+  }
+  .HS__CarouselSpace {
+    column-gap: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .HS__CarouselImg {
+    position: relative;
+    max-width: 100%;
+  }
+  .HS__CarouselSpace {
+    justify-self: center;
+    max-width: 80%;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .HS__CarouselData {
+    max-width: 100%;
+  }
+  .HS__CarouselBg {
+    margin-top: 25%;
+  }
+}
+
+@media (max-width: 450px) {
+  .HS__CarouselSpace {
+    column-gap: 1rem;
+    max-width: 100%;
+  }
+}

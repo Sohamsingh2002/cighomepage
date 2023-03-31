@@ -66,7 +66,7 @@
 }
 
 .card-card .cover-image {
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .card-card .cover {
@@ -96,9 +96,13 @@
 .card-card .discription {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  /* margin: 10px; */
 }
 #featured {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+}
+#erin {
+  width: 550px;
+  height: 230px;
 }

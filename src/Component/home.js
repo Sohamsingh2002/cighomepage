@@ -161,12 +161,11 @@ class Home extends Component {
     return (
       <div id="home-main">
         <div id="home_img">
-          <div id="title">Bridging the gap between Corporate & Academia</div>
+          <div id="title">Bridging the gap between Corporate and Academia</div>
 
           <div id="sub">
-            <CircleIcon fontSize="small" /> {"     "}&nbsp; By providing a
-            platform for academia and industry to interact, CIG proffers to
-            connect, collaborate and innovate{" "}
+            By providing a platform for academia and industry to interact, CIG
+            proffers to connect, collaborate and innovate{" "}
             {/* The Corporate Interaction Group (CIG) at IIT Roorkee works as a
             platform that connects academia and industry with the goal of
             promoting collaboration and innovation
@@ -178,9 +177,9 @@ class Home extends Component {
             relationships that can lead to new collaborations. */}
           </div>
 
-          {/* <div id="btn_home">
+          <div id="btn_home">
             <span> Let’s Collaborate</span>{" "}
-          </div> */}
+          </div>
           <img id="img_home" src={bg} alt="img-home" />
           <img id="home_head" src={home_head} alt="home-head" />
           <img id="home_head_a" src={home_head_a} alt="home-head-a" />

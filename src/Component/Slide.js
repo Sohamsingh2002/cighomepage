@@ -24,12 +24,13 @@ export const Slide = React.memo(function (StackedCarouselSlideProps) {
       <div className="detail fill">
         <div className="discription">
           <img
-            style={{ width: 100 }}
+            id="erin"
+            // style={{ width: 100 }}
             alt="j"
             className="cover-image"
             src={coverImage}
           />
-          <h5>{heading}</h5>
+          <h4>{heading}</h4>
           <p>{text}</p>
         </div>
       </div>
