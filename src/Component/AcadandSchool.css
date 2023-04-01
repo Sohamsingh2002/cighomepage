@@ -1,0 +1,60 @@
+.containeracad {
+  width: 80%;
+  margin: 0px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#Acad_Heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #06ca3d;
+  height: 57px;
+  margin-bottom: 43px;
+}
+
+.cardAcadCenter {
+  margin: 20px;
+  background: #fdfdff;
+  box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  width: 314px;
+  /* height: 100px; */
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  color: #3f3f3f;
+}
+
+.cardAcadCenter:hover {
+  cursor: pointer;
+  background-color: var(--hover_color);
+  color: #fdfdff !important;
+}
+
+.cardAcadCenter > p {
+  width: 250px;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: inherit;
+}
+
+.school {
+  width: 500px !important;
+}
