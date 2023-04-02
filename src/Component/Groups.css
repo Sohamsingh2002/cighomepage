@@ -1,0 +1,206 @@
+@font-face {
+  font-family: sansation-bold;
+  src: url(./sansation/Sansation-Bold.ttf);
+}
+@font-face {
+  font-family: sansation-regular;
+  src: url(./sansation/Sansation-Regular.ttf);
+}
+
+.containerG {
+  width: 100%;
+  margin-top: 100px !important;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* background: linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen; */
+}
+
+#groupsHeading {
+  font-family: sansation-bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #049df5;
+}
+
+#subheadingGroup {
+  font-family: sansation-bold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  /* text-align: center; */
+  letter-spacing: -0.02em;
+  /* width: 40%; */
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  color: #fb4c06;
+}
+
+#subheadingGroup > input {
+  margin-left: 57px;
+}
+
+.invisible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.subBoxGroup {
+  width: 93%;
+  margin-left: 7%;
+  display: flex;
+  align-items: left !important;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  /* height: 300px; */
+}
+
+.sliderGroup {
+  display: flex;
+  flex-direction: row;
+  /* width: 100%; */
+  /* width: 200px; */
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.cardG {
+  width: 350px !important;
+  height: 360px;
+  margin-right: 75px;
+  /* background: #f1f1f1; */
+  background: linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
+  border-radius: 30px;
+  border-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-around; */
+  /* text-align: center; */
+  /* margin-right: 20px; */
+  /* padding: 20px; */
+  /* margin: 20px; */
+}
+
+.cardG > img {
+  margin: 10px;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+}
+
+.cardG > h6 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  /* line-height: 22px; */
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #331401;
+  /* tex */
+}
+
+.cardG > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 131%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  width: 230px;
+  margin: 20px;
+  overflow-y: scroll;
+}
+
+/* Input Range Custom Styles */
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 300px;
+  /* Specific width is required for Firefox. */
+  height: 10px;
+  background: #f1f1f1;
+  /* background: linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen; */
+  /* Otherwise white in Chrome */
+  border-radius: 1rem;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]::-ms-track {
+  width: auto;
+  background: #f1f1f1;
+  /* background: linear-gradient(red, transparent),
+    linear-gradient(to top left, lime, transparent),
+    linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen; */
+
+  border-color: transparent;
+  color: transparent;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 10px;
+  width: 50px;
+  border-radius: 1rem;
+  background: #1cfe10;
+  margin-top: 0px;
+  /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  box-shadow: none;
+  /* Add cool effects to your sliders! */
+}
+
+/* All the same stuff for Firefox */
+
+input[type="range"]::-moz-range-thumb {
+  box-shadow: none;
+  border: none;
+  height: 10px;
+  width: 50px;
+  border-radius: 1rem;
+  background: #feba10;
+}
+
+/* All the same stuff for IE */
+
+input[type="range"]::-ms-thumb {
+  box-shadow: none;
+  border: none;
+  height: 10px;
+  width: 50px;
+  border-radius: 1rem;
+  background: #feba10;
+}
+
+.inputContainerG {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

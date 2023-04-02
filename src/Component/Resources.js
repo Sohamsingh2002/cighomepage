@@ -3,6 +3,7 @@ import Navbar from "./header";
 import Background from "./Background";
 import { BrowserRouter } from "react-router-dom";
 import Departments from "./Department";
+import Groups from "./Groups";
 
 class Resources extends Component {
   render() {
@@ -17,6 +18,7 @@ class Resources extends Component {
           text="The IITR community is driven by a shared purpose: to make a better world through education, research, and innovation"
         />
         <Departments />
+        <Groups />
       </div>
     );
   }

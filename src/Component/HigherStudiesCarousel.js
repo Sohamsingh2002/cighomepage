@@ -56,7 +56,7 @@ const HigherStudiesCarousel = () => {
             />
           </div>
           <div className="HS__CarouselData">
-            <h3>{HS__Data[current].name}</h3>
+            <h2>{HS__Data[current].name}</h2>
             <h4>{HS__Data[current].designation}</h4>
             <p>{HS__Data[current].description}</p>
             {/* <a href={HS__Data[current].link}>Read More</a> */}
