@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Navbar from "./header";
+import Navbar from "../header";
 import Background from "./Background";
 import { BrowserRouter } from "react-router-dom";
 import Departments from "./Department";

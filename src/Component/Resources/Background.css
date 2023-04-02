@@ -9,7 +9,7 @@
 
 #aboutbg {
   margin: 6rem auto;
-  background: url("./images/bg2.svg");
+  background: url("../images/bg2.svg");
   height: 35.5rem;
   max-width: 90%;
   aspect-ratio: 15/5;
@@ -83,7 +83,7 @@
 
 @media screen and (max-width: 1030px) {
   #aboutbg {
-    background: url("./images/bg2.svg");
+    background: url("../images/bg2.svg");
     margin-top: 1rem;
     padding-top: 8rem;
     /* margin-left: 0;
@@ -131,7 +131,7 @@
 
 @media screen and (max-width: 550px) {
   #aboutbg {
-    background: url("./images/bg2.svg");
+    background: url("../images/bg2.svg");
     padding-top: 5rem;
     margin-top: 1rem;
     margin-left: 0;
@@ -169,7 +169,7 @@
 @media screen and (min-width: 1500px) {
   #aboutbg {
     margin: 7rem auto;
-    background: url("./images/bg5.png");
+    background: url("../images/bg5.png");
     height: 35.5rem;
     max-width: 90%;
     background-attachment: fixed;

@@ -1,10 +1,10 @@
 @font-face {
   font-family: sansation-bold;
-  src: url(./sansation/Sansation-Bold.ttf);
+  src: url(../sansation/Sansation-Bold.ttf);
 }
 @font-face {
   font-family: sansation-regular;
-  src: url(./sansation/Sansation-Regular.ttf);
+  src: url(../sansation/Sansation-Regular.ttf);
 }
 
 .containerG {

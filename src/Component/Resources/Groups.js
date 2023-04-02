@@ -1,6 +1,6 @@
 import React, { useState, useRef, useLayoutEffect, useEffect } from "react";
-import MyMobile from "./MyMobile";
-import MyDesktop from "./MyDesktop";
+import MyMobile from "../MyMobile";
+import MyDesktop from "../MyDesktop";
 import "./Groups.css";
 import { techData } from "./techDetails";
 import { culData } from "./cultDetails";

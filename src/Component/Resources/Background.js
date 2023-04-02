@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Background.css";
-import down from "./images/down.svg";
+import down from "../images/down.svg";
 
 class Background extends Component {
   render() {

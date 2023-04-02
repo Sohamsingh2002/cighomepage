@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import "./caro.css";
-import LeftArrow from "./images/LeftArrow.svg";
-import RightArrow from "./images/RightArrow.svg";
+import LeftArrow from "../images/LeftArrow.svg";
+import RightArrow from "../images/RightArrow.svg";
 
 // import { slides } from "./AcadCarouselData";
 

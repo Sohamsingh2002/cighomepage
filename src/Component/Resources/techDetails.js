@@ -1,26 +1,26 @@
 // import tech from "./Assests/techImage.svg";
-import sds from "./images/sds.png";
-import infosec from "./images/Infosec.png";
-import dsg from "./images/Dsg.jpg";
-import mdg from "./images/Mdg.png";
-import img from "./images/Img.jpeg";
-import iitrms from "./images/Iitr motorsports.png";
-import fin from "./images/Finance club.png";
-import robo from "./images/Robocon.png";
-import aries from "./images/Aries.png";
-import pag from "./images/Pag.jpg";
-import mars from "./images/Mars.png";
-import ds from "./images/ds.png";
-import ecell from "./images/ecell.jpg";
-import igem from "./images/igem.jpg";
-import qcg from "./images/qcg.png";
-import enactus from "./images/enactus.png";
-import arp from "./images/arp.png";
-import knox from "./images/knox.png";
-import vlg from "./images/vlg.jpg";
-import acm from "./images/acm.png";
-import share from "./images/share.png";
-import blockchain from "./images/blockchain.jpg";
+import sds from "../images/sds.png";
+import infosec from "../images/Infosec.png";
+import dsg from "../images/Dsg.jpg";
+import mdg from "../images/Mdg.png";
+import img from "../images/Img.jpeg";
+import iitrms from "../images/Iitr motorsports.png";
+import fin from "../images/Finance club.png";
+import robo from "../images/Robocon.png";
+import aries from "../images/Aries.png";
+import pag from "../images/Pag.jpg";
+import mars from "../images/Mars.png";
+import ds from "../images/ds.png";
+import ecell from "../images/ecell.jpg";
+import igem from "../images/igem.jpg";
+import qcg from "../images/qcg.png";
+import enactus from "../images/enactus.png";
+import arp from "../images/arp.png";
+import knox from "../images/knox.png";
+import vlg from "../images/vlg.jpg";
+import acm from "../images/acm.png";
+import share from "../images/share.png";
+import blockchain from "../images/blockchain.jpg";
 
 export const techData = [
   {

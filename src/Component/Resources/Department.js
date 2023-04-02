@@ -3,13 +3,13 @@ import "./Department.css";
 
 import Crousel from "./caro";
 
-import backArrow from "./images/BackArrow.svg";
-import forArrow from "./images/ForArrow.svg";
-import MyMobile from "./MyMobile";
-import MyDesktop from "./MyDesktop";
+import backArrow from "../images/BackArrow.svg";
+import forArrow from "../images/ForArrow.svg";
+import MyMobile from "../MyMobile";
+import MyDesktop from "../MyDesktop";
 // import AcadandSchool from "./AcadandSchool";
 import { Link } from "react-router-dom";
-import building from "./images/building.jpg";
+import building from "../images/building.jpg";
 import { Container, Stack } from "@mui/material";
 const list = [
   { id: 1, dep: "Applied Science and Engineering" },
